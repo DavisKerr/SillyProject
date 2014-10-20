@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Silly Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelText">Words go here</string>
+    <string name="funText">This is fun</string>
+    <string name="sarcasmText">HA!</string>
+    <string name="button1Text">Click to change colors</string>
+    <string name="title_activity_magic">MagicActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="UpButtonText">Up</string>
+    <string name="DownButtonText">Down</string>
+    <string name="LeftButtonText">Left</string>
+    <string name="RightButtonText">Right</string>
+    <string name="SpriteName">Sprite</string>
+    <string name="ChangePageText">Next Screen</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/DownButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="@string/DownButtonText" />
+
+    <Button
+        android:id="@+id/UpButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DownButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/UpButtonText" />
+
+    <Button
+        android:id="@+id/RightButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Leftbutton"
+        android:layout_alignBottom="@+id/Leftbutton"
+        android:layout_toRightOf="@+id/UpButton"
+        android:text="@string/RightButtonText" />
+
+    <Button
+        android:id="@+id/Leftbutton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/DownButton"
+        android:layout_marginBottom="23dp"
+        android:layout_toLeftOf="@+id/UpButton"
+        android:text="@string/LeftButtonText" />
+
+    <ImageView
+        android:id="@+id/Sprite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:contentDescription="@string/SpriteName"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
